@@ -10,9 +10,9 @@ import android.widget.Toast;
 /**
  * Toast工具类
  */
-public class ToastUtils {
+public class XToastUtils {
 
-    private ToastUtils() {
+    private XToastUtils() {
         /* cannot be instantiated */
         throw new UnsupportedOperationException("cannot be instantiated");
     }

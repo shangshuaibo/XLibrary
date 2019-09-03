@@ -2,8 +2,7 @@ package com.ssb.xlibrary
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
-import com.ssb.library.util.ToastUtils
+import com.ssb.library.util.XToastUtils
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btn.setOnClickListener {
-            ToastUtils.showMessageCenter(this, "我点击了，哈哈哈")
+            XToastUtils.showMessageCenter(this, "我点击了，哈哈哈")
         }
     }
 }

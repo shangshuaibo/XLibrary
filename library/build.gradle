@@ -36,7 +36,7 @@ publish {
     userOrg = 'shangshuaibo'
     groupId = 'com.ssb'
     artifactId = 'library'
-    publishVersion = '1.0.2'
+    publishVersion = 'v1.0'
     desc = 'My library'
     website = 'https://github.com/shangshuaibo/XLibrary'
 }
